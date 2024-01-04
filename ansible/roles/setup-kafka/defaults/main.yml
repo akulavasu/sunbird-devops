@@ -1,7 +1,7 @@
 env: dev
 
 ml_kafka_topic_create: false
-uci_kafka_topic_create: false
+uci_kafka_topic_create: true
 av_kafka_topic_create: false
 zookeeper_host: "{{ groups['zookeeper'][0] | default('localhost')}}"
 processing_kafka_overriden_topics:
