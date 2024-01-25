@@ -1,6 +1,6 @@
 env: dev
 
-ml_kafka_topic_create: false
+ml_kafka_topic_create: true
 uci_kafka_topic_create: true
 av_kafka_topic_create: false
 zookeeper_host: "{{ groups['zookeeper'][0] | default('localhost')}}"
